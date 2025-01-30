@@ -29,4 +29,30 @@ Ta er till inställningarna och *General*. Ganska högt upp på sidan hittar ni 
 
 ## Steg 5 
 
-Ni har fått en lista på olika tasks. Dessa hitta ni [här](./tasks.md)
+Ni har fått en lista på olika tasks. Dessa hittar ni [här](./tasks.md)
+
+### 5a
+
+Börja med att plocka på er en task i taget per person tills task 1 till 6 alla är färdiga.
+För att skapa er branch lokalt på er egen dator så kör ni ```git checkout -b <namnet på er feature branch>```
+När ni har lite längre kodstycken som skall in så kan ni gärna få stagea och committa stegvis och inte allt på en gång.
+Så fort ni blir färdig med er feature branch så gör ni en pull request för att få merga till "dev".
+
+### 5b
+
+Task 7 - 12 kommer innebära en hel del konfikter, men om vi löser detta snyggt och komminucerar med varandra så håller sig konfikterna förhoppningsvis till koden, utan att sprida sig in i gruppen.
+Gör på samma sätt som i föregående steg att ni plockar på er en varsin task tills alla task är gjorda. Vänta dock med era pull requests tills alla är färdiga, för nu skall vi testa att lösa konflikterna online på Github. När alla är färdiga så kan ni börja skapa pull requests.
+
+### 5c
+
+Nu skall vi ta oss an punkt 13 - 17, och denna gången är tanken att konfikterna löses efterhand lokalt. Därför är det viktigt att ni genomför följande steg i korrekt ordning.
+1. Skapa er feature branch
+2. Lägg in koden och spara
+3. Stagea och committa
+4. Dra hem de senaste ändringarna i dev från Github genom att köra ```git pull origin dev```
+5. Lös konflikten genom att prata med era kompisar
+6. Stagea, committa och pusha din branch
+7. Skapa en pull request och merga
+
+### 5d
+In med skiten bara. Får ni några konflikter nu?
