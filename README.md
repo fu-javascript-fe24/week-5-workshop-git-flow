@@ -1,6 +1,6 @@
 # Workshop: Git Flow
 
-I denna lilla workshop kommer ni att få "steg-för-steg"-instruktioner för att träna på att arbeta enligt Git Flow, ett måste för alla kommande projekt i er utbildning. Jag rekommenderar att ni använder er av Git Bash-terminalen för en trevligare överblick när ni arbetar.
+I denna lilla workshop kommer ni att få "steg-för-steg"-instruktioner för att träna på att arbeta enligt Git Flow, ett måste för alla kommande projekt i er utbildning. Jag vill att ni använder er av Git Bash-terminalen för en trevligare överblick när ni arbetar.
 
 ## Steg 1 - Skapa repo
 
@@ -19,7 +19,7 @@ För att uppa säkerheten i vårt projekt, och förhindra att vi har frifräsare
 4. Scrolla längst ner och klicka på *Create*.
 
 Nu har ni skapat en regel som skyddar er main från olyckliga mergningar. Nu kommer alla i gruppen (förutom den som skapar pull requesten) vara tvugna att godkänna innan en branch kan mergas till er "main".
-Skapa nu ytterligare en regel som ni döper till "Branch protection". Ni följer stegen ovan bortsett från att ni nu i steg 2 efter att ha klickat på *Add target* väljer *Include all branches*.
+Skapa nu ytterligare en regel som ni döper till "Branch protection". Ni följer stegen ovan bortsett från att ni nu i steg 2 efter att ha klickat på *Add target* väljer *Include all branches*. Under *required approvals* väljer ni nu 1 approval.
 Denna regel kommer säkerställa att alla pull requests till alla brancher förutom "main" (som kräver fler) kräver 1 review från en lagkamrat innan ni kan merga.
 
 ## Steg 4 - Ändra default-branch (Valfritt)
@@ -30,12 +30,13 @@ Ta er till inställningarna och *General*. Ganska högt upp på sidan hittar ni 
 ## Steg 5 
 
 Ni har fått en lista på olika tasks. Dessa hittar ni [här](./tasks.md)
+Gör färdigt 5a innan ni går vidare till 5b, och så vidare.
 
 ### 5a
 
 Börja med att plocka på er en task i taget per person tills task 1 till 6 alla är färdiga.
-För att skapa er branch lokalt på er egen dator så kör ni ```git checkout -b <namnet på er feature branch>```
-När ni har lite längre kodstycken som skall in så kan ni gärna få stagea och committa stegvis och inte allt på en gång.
+För att skapa er branch lokalt på er egen dator så kör ni ```git checkout -b <namnet på er feature branch>```, alt ```git branch <namnet på er branch>``` följt av ```git checkout <namnet på er branch>```. 
+När ni har lite längre kodstycken som skall in så kan ni pröva att stagea och committa stegvis och inte allt på en gång.
 Så fort ni blir färdig med er feature branch så gör ni en pull request för att få merga till "dev".
 
 ### 5b
@@ -55,8 +56,8 @@ Nu skall vi ta oss an punkt 13 - 17, och denna gången är tanken att konfiktern
 7. Skapa en pull request och merga
 
 ### 5d
-In med skiten bara. Får ni några konflikter nu?
+In med 18 - 20 också nu!
 
 ## Steg 6
 
-Skapa en pull request till main där ni assignar övriga i teamet som reviewers.
+Skapa en pull request från dev till main där ni assignar övriga i teamet som reviewers.
