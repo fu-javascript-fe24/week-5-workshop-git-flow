@@ -4,6 +4,8 @@
 Skapa en HTML-fil och länka in filerna style.css och app.js i din Head. Namnge sidan Swapi och länka även in följande i din Head.
 ```<script src="https://kit.fontawesome.com/f300007e95.js" crossorigin="anonymous"></script>```
 
+Skapa även mappen ```resources``` och lägg in bilden *header-background.png* som du hittar i repot.
+
 ## 02-createScript
 Skapa en JS fil med namnet app.js. Stagea och committa. Lägg därefter in följande kod längst upp i filen
 ```
