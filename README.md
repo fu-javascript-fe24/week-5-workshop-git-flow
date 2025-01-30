@@ -56,3 +56,7 @@ Nu skall vi ta oss an punkt 13 - 17, och denna gången är tanken att konfiktern
 
 ### 5d
 In med skiten bara. Får ni några konflikter nu?
+
+## Steg 6
+
+Skapa en pull request till main där ni assignar övriga i teamet som reviewers.
