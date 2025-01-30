@@ -125,7 +125,7 @@ Lägg in följande styling i er css-fil
 /* Page Header */
 .page-header {
     width: 100%;
-    background-image: url('../resources/header-background.png');
+    background-image: url('./resources/header-background.png');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
