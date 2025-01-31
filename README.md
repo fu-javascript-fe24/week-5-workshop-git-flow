@@ -46,7 +46,7 @@ Gör på samma sätt som i föregående steg att ni plockar på er en varsin tas
 
 ### 5c
 
-Nu skall vi ta oss an punkt 13 - 17, och denna gången är tanken att konfikterna löses efterhand lokalt. Därför är det viktigt att ni genomför följande steg i korrekt ordning.
+Nu skall vi ta oss an punkt 13 - 17, och denna gången är tanken att konfikterna löses efterhand lokalt. Därför är det viktigt att ni genomför följande steg i korrekt ordning, samt att ni alla kör en ```git pull origin dev``` till er egen dev-branch innan ni sätter igång.
 1. Skapa er feature branch
 2. Lägg in koden och spara
 3. Stagea och committa
